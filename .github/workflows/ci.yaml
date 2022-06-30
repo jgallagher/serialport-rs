@@ -172,3 +172,10 @@ jobs:
       disable_extra_builds: true
       disable_tests: true
       target: x86_64-unknown-netbsd
+
+  x86_64-unknown-illumos:
+    uses: ./.github/workflows/build.yaml
+    with:
+      disable_extra_builds: true
+      disable_tests: true
+      target: x86_64-unknown-illumos
